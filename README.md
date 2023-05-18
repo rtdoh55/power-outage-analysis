@@ -45,3 +45,7 @@ This was a Histogram plot of the climate region where outages had occurred, we w
 # Scatterplot of Total Outages in each Climate Region
 This was a Histogram plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the areas where a major outage would've been more likely to occur.
 <iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
+
+# Histogram of Average Outage Duration in each Climate Region
+This was a Histogram plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the areas where a major outage would've been more likely to occur.
+<iframe src="assets/outage_duration.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
