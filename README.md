@@ -52,13 +52,13 @@ This was a Histogram plot of the climate region where outages had occurred, we w
 ## Aggregate data frames
 ## Mean of grouping by Month and Climate Region
 
-|                           |   OUTAGE.DURATION |   CUSTOMERS.AFFECTED |   TOTAL.CUSTOMERS |       POPULATION |   PCT_WATER_INLAND |   PERCENT.AFFECTED |   MAJOR_OUTAGE |
-|:--------------------------|------------------:|---------------------:|------------------:|-----------------:|-------------------:|-------------------:|---------------:|
-| (0, 'Central')            |               nan |              11000   |       5.2824e+06  |      1.24342e+07 |            1.41589 |           0.088466 |              0 |
-| (0, 'Northeast')          |               nan |                nan   |  377219           | 786373           |            3.65609 |           2.16589  |              0 |
-| (0, 'South')              |               nan |             156500   |       5.33959e+06 |      1.1829e+07  |            1.36144 |           5.07771  |              0 |
-| (0, 'Southeast')          |               nan |              82333.3 |       3.16379e+06 |      6.54653e+06 |            4.18144 |           1.57771  |              0 |
-| (0, 'West North Central') |               nan |                nan   |  366037           | 649422           |            2.40177 |           1.80863  |              0 |
+|                            |   OUTAGE.DURATION |   CUSTOMERS.AFFECTED |   TOTAL.CUSTOMERS |   POPULATION |   PCT_WATER_INLAND |   PERCENT.AFFECTED |   MAJOR_OUTAGE |
+|:---------------------------|------------------:|---------------------:|------------------:|-------------:|-------------------:|-------------------:|---------------:|
+| (12, 'Southeast')          |           1241.22 |              51928.8 |       4.50819e+06 |  9.22126e+06 |           4.84635  |           0.695066 |       0.666667 |
+| (12, 'Southwest')          |           1450.57 |             100000   |       2.14067e+06 |  4.97991e+06 |           1.57514  |           1.29752  |       0.285714 |
+| (12, 'West')               |           2687.52 |             298283   |       1.40776e+07 |  3.54609e+07 |           1.69005  |           1.12886  |       0.44     |
+| (12, 'West North Central') |           5160    |              24750   |  682512           |  1.22901e+06 |           1.53961  |           2.94014  |       1        |
+| (12, 'nan')                |           1367    |             294000   |  472025           |  1.33221e+06 |           0.384193 |          22.0685   |       1        |
 
 # Assessment of Missingness
 ### NMAR Analysis
