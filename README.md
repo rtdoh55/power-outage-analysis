@@ -32,6 +32,7 @@ First, we had to format the data frame in order to include only the columns that
 |   2010 |      10 | Minnesota    | MN            | MRO           | East North Central | cold               |            -1.5 | severe weather     |              3000 |                70000 |          8.15 |           2586905 |      5310903 |    91.5927 |         8.40733 |            5.47874 | 2010-10-26 20:00:00 | 2010-10-28 22:00:00  |
 |   2012 |       6 | Minnesota    | MN            | MRO           | East North Central | normal             |            -0.1 | severe weather     |              2550 |                68200 |          9.19 |           2606813 |      5380443 |    91.5927 |         8.40733 |            5.47874 | 2012-06-19 04:30:00 | 2012-06-20 23:00:00  |
 |   2015 |       7 | Minnesota    | MN            | MRO           | East North Central | warm               |             1.2 | severe weather     |              1740 |               250000 |         10.43 |           2673531 |      5489594 |    91.5927 |         8.40733 |            5.47874 | 2015-07-18 02:00:00 | 2015-07-19 07:00:00  |
+
 </div>
 ### Univariate Analysis
 # Plot of Month
