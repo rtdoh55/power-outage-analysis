@@ -68,3 +68,4 @@ Outage.Duration can be NMAR, it could be that during the power outage they didn'
 <iframe src="assets/TVDdist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 # Hypothesis Testing
+<iframe src="assets/Null_dist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
