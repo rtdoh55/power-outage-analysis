@@ -21,7 +21,7 @@
 
 # Exploratory Data Analysis
 ### Data cleaning
-
+First, we had to format the data frame in order to include only the columns that had information from the excel file. We did this using dataframe manipulation, setting OBS as our index and then creating OUTAGE.START and OUTAGE.RESTORATION which were stored as timestamps. We then selected the most relevant columns to our question and stored those columns in a new data frame. After this new dataframe was created, we assigned the appropriate data types for each column so that we could perform data manipulation on those columns.
 # Plot of Year
 <iframe src="assets/Year_plot.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%" ></iframe>
 # Plot of Climate
