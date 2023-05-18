@@ -33,7 +33,7 @@ First, we had to format the data frame in order to include only the columns that
 |   2015 |       7 | Minnesota    | MN            | MRO           | East North Central | warm               |             1.2 | severe weather     |              1740 |               250000 |         10.43 |           2673531 |      5489594 |    91.5927 |         8.40733 |            5.47874 | 2015-07-18 02:00:00 | 2015-07-19 07:00:00  |
 
 # Plot of Year
-This was a Histogram plot of the years where outages had occurred, we were able to see the years where the most outages occurred.
+This was a Histogram plot of the years where outages had occurred, we were able to see the years where the most outages occurred. Giving us a little insight as to when 
 <iframe src="assets/Year_plot.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%" ></iframe>
 # Plot of Climate
 This was a Histogram plot of the climate where outages had occurred, we were able to see the years where the most outages occurred.
