@@ -68,3 +68,5 @@ Outage.Duration can be NMAR, it could be that during the power outage they didn'
 
 ### Missingness Dependency
 <iframe src="assets/TVDdist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
+
+# Hypothesis Testing
