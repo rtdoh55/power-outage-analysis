@@ -38,12 +38,12 @@ First, we had to format the data frame in order to include only the columns that
 This was a Histogram plot of the months where outages had occurred, we were able to see the months where the most outages occurred. Giving us a little insight as to which months were commonly associated with power outages. Overall, the trends that we noticed were that the summer months including June, July, and August seemed to contain more outages than other months.
 <iframe src="assets/Month_plot.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%" ></iframe>
 # Plot of Climate Region
-This was a Histogram plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the regions where a major outage would've been more likely to occur. Overall the trend we noticed was that the Northeast had significantly more outages compared to the rest of the regions.
+This was a Histogram plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the regions where a major outage would've been more likely to occur. Overall the trend we noticed was that the Northeast had significantly more outages compared to the rest of the regions. 
 <iframe src="assets/Climate_plot.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 ## Bivariate Analysis
-# Scatterplot of Total Outages in each Climate Region
-This was a scatter plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the areas where a major outage would've been more likely to occur.
+# Scatterplot of Total Outages in each Climate Region by Month
+This was a scatter plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred during each month. This allowed us to make assumptions about the regions where a major outage would've been more likely to occur during a particular month or group of months. The overall trend that we were noticing was that the Northeast Region typically had more outages and some of the summer months (June, July, and August) seemed to have higher averages than other months.
 <iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 # Histogram of Average Outage Duration in each Climate Region
