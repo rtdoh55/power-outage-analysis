@@ -61,3 +61,10 @@ This was a Histogram plot of the climate region where outages had occurred, we w
 | (0, 'South')              |               nan |             156500   |       5.33959e+06 |      1.1829e+07  |            1.36144 |           5.07771  |              0 |
 | (0, 'Southeast')          |               nan |              82333.3 |       3.16379e+06 |      6.54653e+06 |            4.18144 |           1.57771  |              0 |
 | (0, 'West North Central') |               nan |                nan   |  366037           | 649422           |            2.40177 |           1.80863  |              0 |
+
+# Assessment of Missingness
+### NMAR Analysis
+Outage.Duration can be NMAR, it could be that during the power outage they didn't have the capabilites to record the duartion. Therefore, the missing data occurrred because someone forgot to take the time during the power outage. The data that we would like to have is whether they had equipment to measure time effectively from the start of the outage to the end. While the power was out, with this data it could change from NMAR to MAR because if it was missing because they had no proper way to measure it and if we had data about the equipment and whether it could propperly measure duration of a power outage then it could be classified as MAR.
+
+### Missingness Dependency
+<iframe src="assets/TVDdist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
