@@ -22,7 +22,7 @@
 
 # Exploratory Data Analysis
 ### Data cleaning
-First, we had to format the data frame in order to include only the columns that had information from the excel file. We did this using dataframe manipulation, setting OBS as our index and then creating OUTAGE.START and OUTAGE.RESTORATION which were stored as timestamps. We then selected the most relevant columns to our question and stored those columns in a new data frame. After this new dataframe was created, we assigned the appropriate data types for each column so that we could perform data manipulation on those columns.
+First, we had to format the data frame in order to include only the columns that had information from the excel file. We did this using dataframe manipulation, setting OBS as our index and then creating OUTAGE.START and OUTAGE.RESTORATION which were stored as timestamps. We then selected the most relevant columns to our question and stored those columns in a new data frame. After this new dataframe was created, we assigned the appropriate data types for each column so that we could perform data manipulation on those columns. At the end, we added a fillna function to fill any missing values with NaN, that way we would have uniform missing values.
 ### Cleaned DF Head
   
 |   YEAR |   MONTH | U.S._STATE   | POSTAL.CODE   | NERC.REGION   | CLIMATE.REGION     | CLIMATE.CATEGORY   |   ANOMALY.LEVEL | CAUSE.CATEGORY     |   OUTAGE.DURATION |   CUSTOMERS.AFFECTED |   TOTAL.PRICE |   TOTAL.CUSTOMERS |   POPULATION |   PCT_LAND |   PCT_WATER_TOT |   PCT_WATER_INLAND | OUTAGE.START        | OUTAGE.RESTORATION   |
@@ -35,15 +35,15 @@ First, we had to format the data frame in order to include only the columns that
                                                       
 ### Univariate Analysis
 # Plot of Month
-This was a Histogram plot of the years where outages had occurred, we were able to see the years where the most outages occurred. Giving us a little insight as to which months were commonly associated with power outages.
+This was a Histogram plot of the months where outages had occurred, we were able to see the months where the most outages occurred. Giving us a little insight as to which months were commonly associated with power outages. Overall, the trends that we noticed were that the summer months including June, July, and August seemed to contain more outages than other months.
 <iframe src="assets/Month_plot.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%" ></iframe>
-# Plot of Climate
-This was a Histogram plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the areas where a major outage would've been more likely to occur.
+# Plot of Climate Region
+This was a Histogram plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the regions where a major outage would've been more likely to occur. Overall the trend we noticed was that the Northeast had significantly more outages compared to the rest of the regions.
 <iframe src="assets/Climate_plot.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 ## Bivariate Analysis
 # Scatterplot of Total Outages in each Climate Region
-This was a Histogram plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the areas where a major outage would've been more likely to occur.
+This was a scatter plot of the climate region where outages had occurred, we were able to see the climate region where the most outages occurred. This allowed us to make assumptions about the areas where a major outage would've been more likely to occur.
 <iframe src="assets/bivariate.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 # Histogram of Average Outage Duration in each Climate Region
