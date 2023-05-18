@@ -33,7 +33,7 @@ First, we had to format the data frame in order to include only the columns that
 |   2012 |       6 | Minnesota    | MN            | MRO           | East North Central | normal             |            -0.1 | severe weather     |              2550 |                68200 |          9.19 |           2606813 |      5380443 |    91.5927 |         8.40733 |            5.47874 | 2012-06-19 04:30:00 | 2012-06-20 23:00:00  |
 |   2015 |       7 | Minnesota    | MN            | MRO           | East North Central | warm               |             1.2 | severe weather     |              1740 |               250000 |         10.43 |           2673531 |      5489594 |    91.5927 |         8.40733 |            5.47874 | 2015-07-18 02:00:00 | 2015-07-19 07:00:00  |
 
-                                                      </div>
+</div>
 ### Univariate Analysis
 # Plot of Month
 This was a Histogram plot of the years where outages had occurred, we were able to see the years where the most outages occurred. Giving us a little insight as to which months were commonly associated with power outages.
