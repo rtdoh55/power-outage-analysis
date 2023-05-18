@@ -5,16 +5,16 @@
 **The columns we found relevant were **
 1.CUSTOMERS.AFFECTED: The total customers affected
 2.POPULATION: The total population of the area
-3.CLIMATE.REGION: the climate region of the area 
-4.U.S._STATE: the state in the US where the outage occurred
-5.MONTH: the month when the outage occurred
-6.CLIMATE.CATEGORY: how hot or cold the climate was during the outage
-7.OUTAGE.DURATION: Time of  
-8.CUSTOMERS.AFFECTED: 
-9.TOTAL.CUSTOMERS:
-10.POPULATION: 
-11.PCT_WATER_INLAND:
-12.OBS as our index
+3.CLIMATE.REGION: The climate region of the area 
+4.U.S._STATE: The state in the US where the outage occurred
+5.MONTH: The month When the outage occurred
+6.CLIMATE.CATEGORY: How hot or cold the climate was during the outage
+7.OUTAGE.DURATION: Time duration of the outage
+8.CUSTOMERS.AFFECTED: Numbers of customers of the electric company affected by the outage
+9.TOTAL.CUSTOMERS: Total number of customers of the electric company
+10.POPULATION: Population of the area
+11.PCT_WATER_INLAND: What percentage of water is inland in the area
+12.OBS: index
 
 # Plot of Year
 <iframe src="assets/Year_plot.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%" ></iframe>
