@@ -68,7 +68,7 @@ Outage.Duration could be NMAR, it could be that during the power outage they did
 
 ### Missingness Dependency
 ## Month and Climate Region
-For Month and Climate region
+For Month and Climate Region we saw that climate region seemed to depend on Month. Whenever there was a missing value in the Month, there was also a missing value in the Climate region. We created a new column by converting the month column into a boolean column of values indicating whether it was NaN or not. Our choice of test statistic was Total Variation Distance We found an observed test statistic of 1. We ran a permutation test, shuffling the new boolean column and calculating a TVD for each shuffle. Our observed p-value was 0, and so it was clear that the Month column had a clear effect on the Climate region.
 <iframe src="assets/TVDdist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 ## Climate Region and Population
