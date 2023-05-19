@@ -76,7 +76,7 @@ For Climate Region and US State, we chose them because we saw that there seemed 
 
 
 # Hypothesis Testing
-### Null hypothesis: Power outage durations are not dependent on location nor time
-### Alternative hypothesis: Power outage durations tend to be higher in Summer, in the Northeast
+### *Null hypothesis*: Power outage durations are not dependent on location nor time
+### *Alternative hypothesis*: Power outage durations tend to be higher in Summer, in the Northeast
 Our chosen test statistic was the mean outage duration with a significance level of 5%, our resulting p-value was .148 and our conclusion was that we fail to reject the null. Our process was to first calculate the average outage duration when the duration occurs during summer months in the northeast. We then sampled from the original dataframe the same amount of outage durations that were in the summer months and northeast dataframe. We used these values to create a null distribution by calculating the average outage durations of these sampled outage durations. These choices are good because our null through this hypothesis testing is that power outages are not dependent on location nor time. If we were able to find a case where it seemed the observed statistic did not come from the null distribtuion, we would be able to reject the null and potentially find correlations betweeen location and time and average outage duration.
 <iframe src="assets/Null_dist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
