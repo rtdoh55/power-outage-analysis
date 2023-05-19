@@ -67,7 +67,12 @@ This was a grouped dataframe based off of Month and Climate Region and the aggre
 Outage.Duration could be NMAR, it could be that during the power outage they didn't have the capabilites to record the duartion. Therefore, the missing data occurrred because someone forgot to or was unable to (for lack of equipment or otherwise) take the time during the power outage. The data that we would like to have is whether they had equipment (or capability) to measure time effectively from the start of the outage to the end. Wth this data it could change from NMAR to MAR because if we know that equipment was missing or if they had no proper way to measure it. Then we can see a direct dependence of the power outage duration being missing on the lack of equipment available or the lack of capability.
 
 ### Missingness Dependency
+## Month and Climate Region
+For Month and Climate region
 <iframe src="assets/TVDdist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
+
+## Climate Region and Population
+<iframe src="assets/TVDdist2.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 
 # Hypothesis Testing
