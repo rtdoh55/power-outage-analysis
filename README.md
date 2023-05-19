@@ -1,6 +1,6 @@
 # power-outage-analysis
 ## Our data set is a set of the major power outages that occurred in the US from January 2000 to July 2016. 
-## Our question is *Where and when do major power outages tend to occur?*
+## Our question is *Does where and when major power outages tend to occur affect the duration of the outage*
 > The data set provides much information about the area, the time, and the causes of the power outages. People should care because it can provide insight into the area where someone may want to live or where they may want to buy property it also provides insight that can help people to know when major outages are likely to occur and so they can prepare for an outage and be better informed. There are 1534 rows and 56 columns: 
 > 
 
@@ -77,4 +77,7 @@ For Climate Region and Population, we chose them because we saw that there seeme
 
 
 # Hypothesis Testing
+### Null hypothesis: Power outage durations are not dependent on location nor time
+### Alternative hypothesis: Power outage durations tend to be higher in Summer, in the Northeast
+Our chosen test statistic was the mean outage duration with a significance level of 5%, our resulting p-value was .04 and our conclusion was that we reject the null. These choices are good because our null through this hypothesis testing is that power outages and not dependent on location nor time. By finding a case where this isn't exactly true, we can help answer our question because when power outage duration is significant enough to reject the null, we are able to know that there is possibly a correlation between location and time and the duration of the outage.
 <iframe src="assets/Null_dist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
