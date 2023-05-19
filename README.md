@@ -72,6 +72,7 @@ For Month and Climate Region we saw that climate region seemed to depend on Mont
 <iframe src="assets/TVDdist.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 ## Climate Region and Population
+For Climate Region and Population, we chose them because we saw that there seemed to be no correlation between the population and whether there were missing values or not in the Climate Region column. We created a new column by converting the Climate Region column into a boolean column of values indicating whether it was NaN or not. Our choice of test statistic was Total Variation Distance and we found an observed test statistic of .219. We ran a permutation test, shuffling the new boolean column and calculating a TVD for each shuffle. Our observed p-value was .9994, and so it was clear that the Population column had no effect on whether the Climate region column had missing values or not.
 <iframe src="assets/TVDdist2.html" width=800 height=600 frameBorder=0  style = "position: relative; right: 30%"></iframe>
 
 
