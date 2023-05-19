@@ -3,12 +3,10 @@
 # Introduction
 ## Our data set is a set of the major power outages that occurred in the US from January 2000 to July 2016. 
 ## Our question is *Does the location and timing of major power outages affect the duration of the outages?*
-The data set provides much information about the area, the time, and the causes of the power outages. People should care because it can provide insight into the area where someone may want to live or where they may want to buy property it also provides insight that can help people to know when major outages are likely to occur and so they can prepare for an outage and be better informed. There are 1534 rows and 56 columns:
-
-**OBS, YEAR, MONTH	U.S._STATE, POSTAL.CODE	NERC.REGION	CLIMATE.REGION, ANOMALY.LEVEL,	CLIMATE.CATEGORY, OUTAGE.START.DATE, OUTAGE.START.TIME, OUTAGE.RESTORATION.DATE, OUTAGE.RESTORATION.TIME, CAUSE.CATEGORY, CAUSE.CATEGORY.DETAIL, HURRICANE.NAMES, OUTAGE.DURATION, DEMAND.LOSS.MW, CUSTOMERS.AFFECTED,	RES.PRICE	COM.PRICE,	IND.PRICETOTAL.PRICE,	RES.SALES	COM.SALES,	IND.SALES,	TOTAL.SALES,	RES.PERCEN,	COM.PERCEN,	IND.PERCEN,	RES.CUSTOMERS,	COM.CUSTOMERS,	IND.CUSTOMERS,	TOTAL.CUSTOMERS,	RES.CUST.PCT,	COM.CUST.PCT IND.CUST.PCT,	PC.REALGSP.STATE, PC.REALGSP.US, PC.REALGSP.REL, PC.REALGSP.CHANGE, UTIL.REALGSP, TOTAL.REALGSP, UTIL.CONTRI, PI.UTIL.OFUSA, POPULATION	POPPCT_URBAN, POPPCT_UC, POPDEN_URBAN, POPDEN_UC, POPDEN_RURAL, AREAPCT_URBAN, AREAPCT_UC, PCT_LAND, PCT_WATER_TOT, PCT_WATER_INLAND**
+The data set provides much information about the area, the time, and the causes of the power outages. People should care because it can provide insight into the area where someone may want to live or where they may want to buy property. It also provides insight that can help people to know when major outages are likely to occur and how long the duration of the outage may be so they can prepare for an outage and be better informed. We hope that it can provide insight into certain causes about the where and when of power outages and how that can affect the duration of the outage. There are 1534 rows and 56 columns:
 
 ### The columns we found relevant were:
-1. CUSTOMERS.AFFECTED: The total customers affected
+1. CUSTOMERS.AFFECTED: The total customers affected by the outage
 2. POPULATION: The total population of the area
 3. CLIMATE.REGION: The climate region of the area 
 4. U.S._STATE: The state in the US where the outage occurred
