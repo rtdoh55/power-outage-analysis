@@ -1,4 +1,5 @@
 # power-outage-analysis
+### By: Jerry Wu and Ryan Doh
 ## Our data set is a set of the major power outages that occurred in the US from January 2000 to July 2016. 
 ## Our question is *Does where and when major power outages tend to occur affect the duration of the outage*
 The data set provides much information about the area, the time, and the causes of the power outages. People should care because it can provide insight into the area where someone may want to live or where they may want to buy property it also provides insight that can help people to know when major outages are likely to occur and so they can prepare for an outage and be better informed. There are 1534 rows and 56 columns:
